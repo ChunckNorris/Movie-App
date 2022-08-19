@@ -23,7 +23,28 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-Card {
+  background-color: #282c34;
+ max-height: 150px;
+ min-height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  padding-bottom: 10px;
+}
+.button-small{
+  max-width: 100px;
+  font-size: small;
+}
+.text-small{
+  font-size: small;
+}
+.text-large{
+  font-size: larger;
+  font-weight: bolder;
+}
 .App-link {
   color: #61dafb;
 }
